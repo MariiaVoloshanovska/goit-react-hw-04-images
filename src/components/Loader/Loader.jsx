@@ -3,8 +3,10 @@ import { css } from '@emotion/react';
 import PulseLoader from 'react-spinners/PulseLoader';
 
 const override = css`
-  display: block;
-  margin: 0 auto;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
 `;
 

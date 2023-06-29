@@ -12,7 +12,7 @@ import Modal from './Modal/Modal';
 import 'react-toastify/dist/ReactToastify.css';
 import 'index.css';
 
-export default function App() {
+export function App() {
   const [inputValue, setInputValue] = useState('');
   const [gallery, setGallery] = useState([]);
   const [loading, setLoading] = useState(false);
