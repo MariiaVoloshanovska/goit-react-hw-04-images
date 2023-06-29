@@ -4,11 +4,11 @@ import PulseLoader from 'react-spinners/PulseLoader';
 
 const override = css`
   display: flex;
+  justify-content: center;
+  text-align: center;
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
 `;
+
 
 export default function Loader() {
   return (
